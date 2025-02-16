@@ -6,7 +6,6 @@ A lightweight and simple to-do list web application built using Flask, with task
 
 ## Features
 
-- ✅ Add tasks with a description  
 - ✅ Mark tasks as complete  
 - ✅ Delete tasks  
 - ✅ Store tasks persistently in a CSV file  
@@ -23,7 +22,7 @@ Make sure you have Python installed (version 3.x recommended). You can download 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/flask-todo.git
+   git clone https://github.com/meechan16/mew-to-do.git
    cd flask-todo
    ```
 
@@ -49,27 +48,11 @@ Make sure you have Python installed (version 3.x recommended). You can download 
 2. Open your browser and go to:  
    **http://127.0.0.1:5000/**
 
----
 
-## Project Structure
-
-```
-flask-todo/
-│── static/
-│   ├── styles.css
-│── templates/
-│   ├── index.html
-│── app.py
-│── tasks.csv
-│── requirements.txt
-│── README.md
-```
 
 - `app.py` - Main Flask application logic
 - `tasks.csv` - CSV file storing tasks
 - `templates/` - HTML templates
-- `static/` - CSS files for styling
-
 ---
 
 ## API Endpoints
@@ -86,12 +69,11 @@ flask-todo/
 ## Example CSV Format
 
 ```csv
-id,task,completed
-1,Buy groceries,False
-2,Finish project,True
+task,completed
+Buy groceries,False
+Finish project,True
 ```
 
-- `id` - Unique identifier for each task
 - `task` - Task description
 - `completed` - `True` if task is done, `False` otherwise
 
@@ -108,5 +90,5 @@ Pull requests are welcome! If you find any issues or have suggestions, feel free
 ---
 
 ## Author
-**Your Name**  
-GitHub: [yourusername](https://github.com/yourusername)
+**Ansh Varma**  
+GitHub: [meechan16](https://github.com/meechan16)
